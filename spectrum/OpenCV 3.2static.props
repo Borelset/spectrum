@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <IncludePath>d:\opencv\build\include;d:\opencv\build\include\opencv;d:\opencv\build\include\opencv2;$(VC_IncludePath);$(WindowsSDK_IncludePath);</IncludePath>
+    <LibraryPath>d:\opencv\build\x64\vc14\lib;d:\opencv\build\x64\vc14\staticlib;$(VC_LibraryPath_x64);$(WindowsSDK_LibraryPath_x64);$(NETFXKitsDir)Lib\um\x64</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\opencv\my_build\install\include;D:\opencv\my_build\install\include\opencv;D:\opencv\my_build\install\include\opencv2;</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>D:\opencv\my_build\install\x64\vc14\staticlib;</AdditionalLibraryDirectories>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;IlmImf.lib;IlmImfd.lib;ippicvmt.lib;libjasper.lib;libjasperd.lib;libjpeg.lib;libjpegd.lib;libpng.lib;libpngd.lib;libtiff.lib;libtiffd.lib;libwebp.lib;libwebpd.lib;opencv_world320.lib;opencv_world320d.lib;zlib.lib;zlibd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup />
+</Project>
