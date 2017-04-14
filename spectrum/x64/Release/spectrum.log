@@ -1,9 +1,0 @@
-﻿  main.cpp
-main.cpp(27): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
-  正在生成代码
-  15 of 883 functions ( 1.7%) were compiled, the rest were copied from previous compilation.
-    0 functions were new in current compilation
-    1 functions had inline decision re-evaluated but remain unchanged
-  已完成代码的生成
-  spectrum.vcxproj -> c:\users\borelset\documents\visual studio 2015\Projects\spectrum\x64\Release\spectrum.exe
-  spectrum.vcxproj -> c:\users\borelset\documents\visual studio 2015\Projects\spectrum\x64\Release\spectrum.pdb (Full PDB)
