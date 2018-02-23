@@ -1,11 +1,6 @@
 基于轮廓识别的新型二维码   
 ============================== 
-   
-使用方法
-----------------------------
-spectrum文件夹下是编译好的项目    
-完整代码需要用qt加载。     
-编译需要opencv 3.2的支持         
+编译需要qt和opencv 3.2的支持         
 
 生成范例
 -----------------------------------
@@ -15,11 +10,3 @@ spectrum文件夹下是编译好的项目
 
 <img src="https://github.com/Borelset/spectrum/blob/master/code.jpg" width = "300" height = "300" />     
     
-
-感谢  
--------------------------
-感谢mersinvald的Reed-Solomon项目提供的里德所罗门算法的实现。        
-
-本项目中的poly.hpp / gf.hpp / rs.hpp 来自            
-
-https://github.com/mersinvald/Reed-Solomon
